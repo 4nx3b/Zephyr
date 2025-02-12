@@ -222,7 +222,8 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     OPlusFrameworksResTarget \
     OPlusNfcResTarget \
-    OPlusSettingsProviderResTarget \
+    OPlusSettingsProviderRes150w \
+    OPlusSettingsProviderRes80w \
     OPlusSettingsResTarget \
     OPlusSystemUIResTarget \
     OPlusTetheringConfigResTarget \
