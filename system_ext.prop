@@ -1,0 +1,18 @@
+# Audio
+ro.audio.silent=0
+ro.audio.usb.period_us=16000
+ro.camera.sound.forced=0
+ro.config.vc_call_vol_steps=9
+
+# Display
+persist.sys.sf.color_saturation=1.0
+sys.brightness.disable_gamma_conversion=true
+
+# Media
+media.stagefright.thumbnail.prefer_hw_codecs=true
+ro.media.recorder-max-base-layer-fps=60
+
+# Wifi
+wifi.direct.interface=p2p0
+wifi.interface=wlan0
+wifi.tethering.interface=ap0
