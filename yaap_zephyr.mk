@@ -4,8 +4,8 @@
 # Inherit from the custom device configuration.
 $(call inherit-product, device/oplus/zephyr/device.mk)
 
-# Inherit from the LineageOS configuration.
-$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
+# Inherit from the Yaap configuration.
+$(call inherit-product, vendor/yaap/config/common_full_phone.mk)
 
 PRODUCT_BRAND := Oplus
 PRODUCT_DEVICE := zephyr
