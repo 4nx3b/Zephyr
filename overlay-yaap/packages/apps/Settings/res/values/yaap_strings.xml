@@ -17,4 +17,7 @@
     <!-- About -->
     <string name="maintainer_name" translatable="false">Thundergod Thor</string>
     <string name="maintainer_telegram" translatable="false">https://t.me/RealmeGTNeo3discussion</string>
+
+    <!-- Uses the legacy UDFPS enrollment UI with side text instead of a footer button. -->
+    <bool name="config_useLegacyUdfpsUi" translatable="false">true</bool>
 </resources>
