@@ -7,10 +7,11 @@
 
 #include "TouchscreenGesture.h"
 
-namespace aidl {
 namespace vendor {
 namespace lineage {
 namespace touch {
+namespace V1_0 {
+namespace implementation {
 
 const int TouchscreenGesture::kSupportedGestures = makeBitField(
         kGestureUpVee, kGestureDownVee, kGestureLeftVee, kGestureRightVee,
@@ -18,7 +19,8 @@ const int TouchscreenGesture::kSupportedGestures = makeBitField(
         kGestureLeftToRight, kGestureRightToLeft, kGestureUpToDown, kGestureDownToUp,
         kGestureM, kGestureW, kGestureSingleTap);
 
+}  // namespace implementation
+}  // namespace V1_0
 }  // namespace touch
 }  // namespace lineage
 }  // namespace vendor
-}  // namespace aidl

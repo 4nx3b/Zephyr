@@ -4,6 +4,7 @@
 #
 
 BUILD_BROKEN_DUP_RULES := true
+BUILD_BROKEN_MISSING_REQUIRED_MODULES := true
 
 DEVICE_PATH := device/oplus/zephyr
 KERNEL_PATH := $(DEVICE_PATH)-kernel
@@ -22,6 +23,9 @@ TARGET_NO_BOOTLOADER := true
 
 # Display
 TARGET_SCREEN_DENSITY := 480
+
+# FOD
+TARGET_SURFACEFLINGER_UDFPS_LIB := //hardware/oplus:libudfps_extension.oplus
 
 # HIDL
 DEVICE_FRAMEWORK_COMPATIBILITY_MATRIX_FILE += \
