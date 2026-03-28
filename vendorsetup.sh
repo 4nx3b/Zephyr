@@ -3,8 +3,7 @@
 echo "Clonning IMS"
 git clone -b android-16-qpr2 https://github.com/Adarsh0127-Elite/android_vendor_mediatek_ims.git vendor/mediatek/ims
 
-echo "Clonning Private keys"
-git clone https://github.com/Adarsh0127-Elite/android_vendor_lineage-priv_keys-template.git -b master vendor/lineage-priv/keys
-cd vendor/lineage-priv/keys
-echo "no" | ./generate.sh
-cd ../../..
+cd frameworks/native  
+git fetch https://github.com/NINJAHUNTER1357/android_frameworks_native.git
+git cherry-pick e0d502fd8aa653d0b96f20d3c26cd73ac00247d6
+cd ../../
