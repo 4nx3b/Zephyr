@@ -320,9 +320,6 @@ PRODUCT_PACKAGES += \
 $(call soong_config_set,OPLUS_LINEAGE_TOUCH_HAL,INCLUDE_DIR,$(DEVICE_PATH)/touch/include)
 $(call soong_config_set,OPLUS_LINEAGE_TOUCH_HAL,USE_OPLUSTOUCH,true)
 
-# TouchServices
-$(call inherit-product, packages/apps/TouchServices/touchservice.mk)
-
 # USB
 $(call soong_config_set,android_hardware_mediatek_usb,audio_accessory_supported,true)
 
