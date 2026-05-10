@@ -3,3 +3,7 @@ binder_call(hal_power_default, hal_oplus_touch_aidl)
 hal_client_domain(hal_power_default, vendor_hal_oplus_touch)
 
 allow hal_power_default hal_oplus_touch_aidl_service:service_manager find;
+
+# Display
+allow hal_power_default vendor_proc_display:dir search;
+allow hal_power_default vendor_proc_display:file w_file_perms;
