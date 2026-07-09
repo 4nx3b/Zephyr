@@ -41,7 +41,7 @@ git clone -b Lunaris https://github.com/4nx3b/Zephyr.git device/oplus/zephyr && 
 git clone -b los-24 https://gitlab.com/NINJAHUNTER1357/android_device_oplus_zephyr-kernel.git device/oplus/zephyr-kernel && \
 git clone -b lineage-23.2 https://github.com/Adarsh0127-Elite/hardware_oplus.git hardware/oplus && \
 git clone -b lineage-23.2 https://github.com/Adarsh0127-Elite/android_device_mediatek_sepolicy_vndr.git device/mediatek/sepolicy_vndr && \
-git clone -b lineage-23.2 https://github.com/Adarsh0127-Elite/android_hardware_mediatek.git hardware/mediatek && \
+git clone -b lineage-23.2 https://github.com/LineageOS/android_hardware_mediatek.git hardware/mediatek && \
 git clone -b lineage-23.2 https://gitlab.com/Adarsh0127-Elite/proprietary_vendor_oplus_zephyr.git vendor/oplus/zephyr
 ```
 
