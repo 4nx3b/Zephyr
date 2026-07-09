@@ -20,7 +20,21 @@ repo sync -c -j$(nproc --all) --force-sync --no-clone-bundle --no-tags
 
 ---
 
-## 3. Clone Device Trees
+## 3. Delete Existing Device Sources (Optional)
+
+```bash
+rm -rf \
+device/oplus/zephyr \
+device/oplus/zephyr-kernel \
+hardware/oplus \
+device/mediatek/sepolicy_vndr \
+hardware/mediatek \
+vendor/oplus/zephyr
+```
+
+---
+
+## 4. Clone Device Trees
 
 ```bash
 git clone -b Lunaris https://github.com/4nx3b/Zephyr.git device/oplus/zephyr && \
@@ -33,7 +47,7 @@ git clone -b lineage-23.2 https://gitlab.com/Adarsh0127-Elite/proprietary_vendor
 
 ---
 
-## 4. Setup Build Environment
+## 5. Setup Build Environment
 
 ```bash
 . b*/env*
@@ -41,7 +55,7 @@ git clone -b lineage-23.2 https://gitlab.com/Adarsh0127-Elite/proprietary_vendor
 
 ---
 
-## 5. Choose Target
+## 6. Choose Target
 
 ```bash
 lunch lineage_zephyr-bp4a-user
@@ -49,7 +63,7 @@ lunch lineage_zephyr-bp4a-user
 
 ---
 
-## 6. Build ROM
+## 7. Build ROM
 
 ### Normal Build
 
