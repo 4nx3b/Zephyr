@@ -4,6 +4,9 @@
 # Inherit from the custom device configuration.
 $(call inherit-product, device/oplus/zephyr/device.mk)
 
+# Inherit from ViPER4AndroidFX
+$(call inherit-product, packages/apps/ViPER4AndroidFX/config.mk)
+
 # Inherit from the LineageOS configuration.
 $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 
@@ -19,4 +22,3 @@ PRODUCT_GMS_CLIENTID_BASE := android-oneplus
 PRODUCT_BUILD_PROP_OVERRIDES += \
     BuildFingerprint=OnePlus/PGKM10/OP5565:15/AP3A.240617.008/S.1f56c75-1-a469:user/release-keys \
     DeviceProduct=$(PRODUCT_SYSTEM_NAME)
-
