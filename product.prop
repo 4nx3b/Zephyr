@@ -22,3 +22,6 @@ ro.vendor.mtk_mobile_management=0
 
 # SKU
 ro.boot.hardware.sku=pickle
+
+# Maintainer 
+ro.lunaris.maintainer=reze | レゼ
