@@ -16,3 +16,8 @@ git fetch https://github.com/oplus-mt6895/android_frameworks_base.git
 git cherry-pick 8fdf7742a1adabcb5c79fd23dcf2039fcda6ce3b
 cd ../..
 
+echo "Cloning Viper4FX"
+mkdir -p packages/apps
+cd packages/apps
+git clone https://github.com/TogoFire/packages_apps_ViPER4AndroidFX.git ViPER4AndroidFX
+cd ../..
