@@ -25,6 +25,8 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
 
 #Assion Shit 
 TARGET_INCLUDE_AXFX := true
+TARGET_DISABLE_EPPE := true
+$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 
 # Camera information (multiple sensors supported)
 AXION_CAMERA_REAR_INFO := 50,8,2
