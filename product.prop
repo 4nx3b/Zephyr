@@ -22,3 +22,5 @@ ro.vendor.mtk_mobile_management=0
 
 # SKU
 ro.boot.hardware.sku=pickle
+# Animation override
+persist.sys.activity_anim_perf_override=true
