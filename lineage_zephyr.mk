@@ -34,8 +34,8 @@ TARGET_USE_FILES := false
 TARGET_USE_MAPS := false
 USE_REALITY_ENGINE := false
 $(call soong_config_set,surfaceflinger,frame_rate_category_high,120)
-$(call soong_config_set,surfaceflinger,frame_rate_category_min,60)
-SURFACE_FLINGER_BOOST := true
+$(call soong_config_set,surfaceflinger,frame_rate_category_min,120)
+SURFACE_FLINGER_BOOST := false
 TARGET_DISABLE_MATLOG:= true
 TARGET_SUPPORTS_GOOGLE_RECORDER := false
 TARGET_INCLUDE_WEATHER := false
