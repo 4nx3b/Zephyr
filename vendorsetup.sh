@@ -8,3 +8,6 @@ mkdir -p packages/apps
 cd packages/apps
 git clone https://github.com/TogoFire/packages_apps_ViPER4AndroidFX.git ViPER4AndroidFX
 cd ../..
+
+echo "Cloning Oppo Camera And Gallery"
+git clone https://gitlab.com/almightygodthor/proprietary_vendor_oplus_camera.git -b lineage-23.2 vendor/oplus/camera
